@@ -1,8 +1,11 @@
 const ErrorPage = () => {
   return (
     <>
-      <div className="bg-gray-500 w-full] h-screen flex justify-center items-center">
-        <p>Your page has been lost 404</p>
+      <div className="bg-gray-500 text-white w-full h-screen flex justify-center items-center">
+        <div>
+          <p>Page not found</p>
+          <h1 className="text-9xl font-bold">404</h1>
+        </div>
       </div>
     </>
   );
